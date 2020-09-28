@@ -3,10 +3,14 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import {Lesson_02} from "./Examples/02_components/Lesson_02";
+
+React.cloneElement('div', null, 'Just div')
+React.cloneElement('input', {className: 'justInput'})
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <Lesson_02 />
   </React.StrictMode>,
   document.getElementById('root')
 );
