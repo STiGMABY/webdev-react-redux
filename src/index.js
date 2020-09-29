@@ -4,13 +4,14 @@ import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 import {Lesson_02} from "./Examples/02_components/Lesson_02";
+import {Lesson_03} from "./Examples/03_state/Lesson_03";
 
 React.cloneElement('div', null, 'Just div')
 React.cloneElement('input', {className: 'justInput'})
 
 ReactDOM.render(
   <React.StrictMode>
-    <Lesson_02 />
+    <Lesson_03 />
   </React.StrictMode>,
   document.getElementById('root')
 );
