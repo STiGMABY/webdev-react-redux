@@ -11,7 +11,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad0d9d1a-82ef-467d-8e93-b7dc9bdf0e23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Examples/06_events/Lesson_06.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Examples/08_conditional_rendering/Lesson_08.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
@@ -73,7 +73,7 @@
       <option name="presentableId" value="Default" />
       <updated>1601317451262</updated>
       <workItem from="1601317455894" duration="2344000" />
-      <workItem from="1601400200729" duration="2333000" />
+      <workItem from="1601400200729" duration="5773000" />
     </task>
     <servers />
   </component>
