@@ -11,8 +11,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad0d9d1a-82ef-467d-8e93-b7dc9bdf0e23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Examples/08_conditional_rendering/Lesson_08.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Examples/08_list_and_keys/Lesson_08.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Examples/08_conditional_rendering/Lesson_08.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examples/07_conditional_rendering/Lesson_07.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -41,11 +42,20 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Examples/08_list_and_keys" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Download\JavaScript\PROJECTS\webdev-react-redux\src\Examples\08_list_and_keys" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\Download\JavaScript\PROJECTS\webdev-react-redux\src\Examples" />
+    </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
@@ -73,7 +83,9 @@
       <option name="presentableId" value="Default" />
       <updated>1601317451262</updated>
       <workItem from="1601317455894" duration="2344000" />
-      <workItem from="1601400200729" duration="5773000" />
+      <workItem from="1601400200729" duration="6403000" />
+      <workItem from="1601443851936" duration="588000" />
+      <workItem from="1601458474759" duration="3584000" />
     </task>
     <servers />
   </component>

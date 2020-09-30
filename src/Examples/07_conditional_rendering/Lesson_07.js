@@ -18,7 +18,7 @@ const Tab3 = () => {
     return <h1>Text of tab3</h1>
 }
 
-export class Lesson_08 extends Component {
+export class Lesson_07 extends Component {
     state = {
         activeTab: 1
     }
