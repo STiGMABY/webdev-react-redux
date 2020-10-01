@@ -11,9 +11,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad0d9d1a-82ef-467d-8e93-b7dc9bdf0e23" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Examples/08_list_and_keys/Lesson_08.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Examples/10_form/Lesson_10.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Examples/08_conditional_rendering/Lesson_08.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examples/07_conditional_rendering/Lesson_07.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -42,7 +41,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/Examples/08_list_and_keys" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../-IT-ICUBATOR/Lessons-from-streams/it-incubator-todolist-ts-11" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -85,7 +84,9 @@
       <workItem from="1601317455894" duration="2344000" />
       <workItem from="1601400200729" duration="6403000" />
       <workItem from="1601443851936" duration="588000" />
-      <workItem from="1601458474759" duration="3584000" />
+      <workItem from="1601458474759" duration="3754000" />
+      <workItem from="1601471111162" duration="1276000" />
+      <workItem from="1601526230431" duration="8007000" />
     </task>
     <servers />
   </component>
@@ -103,5 +104,11 @@
       </map>
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="462" y="117" key="FileChooserDialogImpl" timestamp="1601478379814">
+      <screen x="0" y="0" width="1366" height="728" />
+    </state>
+    <state x="462" y="117" key="FileChooserDialogImpl/0.0.1366.728@0.0.1366.728" timestamp="1601478379814" />
   </component>
 </project>
