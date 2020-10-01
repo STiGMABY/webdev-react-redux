@@ -11,8 +11,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="ad0d9d1a-82ef-467d-8e93-b7dc9bdf0e23" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Examples/15_context/Lesson_15.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Examples/10_form/Lesson_10.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/Examples/10_form/Lesson_10.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,11 +50,11 @@
     <property name="nodejs_package_manager_path" value="yarn" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\Download\JavaScript\PROJECTS\webdev-react-redux\src\Examples\08_list_and_keys" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="E:\Download\JavaScript\PROJECTS\webdev-react-redux\src\Examples" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Download\JavaScript\PROJECTS\webdev-react-redux\src\Examples\08_list_and_keys" />
     </key>
   </component>
   <component name="RunManager" selected="npm.npm start">
@@ -85,7 +87,7 @@
       <workItem from="1601443851936" duration="588000" />
       <workItem from="1601458474759" duration="3754000" />
       <workItem from="1601471111162" duration="1276000" />
-      <workItem from="1601526230431" duration="9389000" />
+      <workItem from="1601526230431" duration="13470000" />
     </task>
     <servers />
   </component>

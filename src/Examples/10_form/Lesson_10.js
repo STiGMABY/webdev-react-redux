@@ -1,4 +1,4 @@
-import React, {Component, Fragment} from "react";
+import React, {Component, createRef, Fragment} from "react";
 
 export class Lesson_10 extends Component {
     state = {
@@ -11,28 +11,36 @@ export class Lesson_10 extends Component {
             position: ''
         }
     }
-    // inputChangeHandler = (e) => {
-    //    //debugger
+
+    inputRef = createRef()
+    textAreatRef = createRef()
+    selectRef = createRef()
+
+    changeHandler = () => {
+        this.setState({
+            inputText: this.inputRef.current.value,
+            textAreaText: this.textAreatRef.current.value,
+            selectText: this.selectRef.current.value
+        })
+    }
+
+    // inputChangeHandler = ({target: {value}}) => {
+    //     //debugger
     //     this.setState({
-    //         inputText: e.target.value
+    //         inputText: value
     //     })
     // }
-    inputChangeHandler = ( {target: {value} }) => {
-        //debugger
-        this.setState({
-            inputText: value
-        })
-    }
-    textAreaChangeHandler = ( {target: {value} }) => {
-        this.setState({
-            textAreaText: value
-        })
-    }
-    selectTextChangeHandler = ( {target: {value}} ) => {
-        this.setState({
-            selectText: value
-        })
-    }
+    // textAreaChangeHandler = ({target: {value}}) => {
+    //     this.setState({
+    //         textAreaText: value
+    //     })
+    // }
+    // selectTextChangeHandler = ({target: {value}}) => {
+    //     this.setState({
+    //         selectText: value
+    //     })
+    // }
+
     onButtonClick = (e) => {
         e.preventDefault()
         const {inputText, textAreaText, selectText} = this.state
@@ -56,9 +64,9 @@ export class Lesson_10 extends Component {
         return (
             <Fragment>
                 <form>
-                    <input type={'text'} value={inputText} onChange={this.inputChangeHandler}/><br/>
-                    <textarea value={textAreaText} onChange={this.textAreaChangeHandler}/><br/>
-                    <select value={selectText} onChange={this.selectTextChangeHandler}>
+                    <input ref={this.inputRef} type={'text'} value={inputText} onChange={this.changeHandler}/><br/>
+                    <textarea ref={this.textAreatRef} value={textAreaText} onChange={this.changeHandler}/><br/>
+                    <select ref={this.selectRef} value={selectText} onChange={this.changeHandler}>
                         <option value={'Frontend-Dev'}>Frontend-Dev</option>
                         <option value={'Backend-Dev'}>Backend-Dev</option>
                     </select>

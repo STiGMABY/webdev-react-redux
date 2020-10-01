@@ -10,13 +10,14 @@ import {Lesson_06} from "./Examples/06_events/Lesson_06";
 import {Lesson_07} from "./Examples/07_conditional_rendering/Lesson_07";
 import {Lesson_08} from "./Examples/08_list_and_keys/Lesson_08";
 import {Lesson_10} from "./Examples/10_form/Lesson_10";
+import {Lesson_15} from "./Examples/15_context/Lesson_15";
 
 React.cloneElement('div', null, 'Just div')
 React.cloneElement('input', {className: 'justInput'})
 
 ReactDOM.render(
   <React.StrictMode>
-    <Lesson_10 />
+    <Lesson_15 />
   </React.StrictMode>,
   document.getElementById('root')
 );
